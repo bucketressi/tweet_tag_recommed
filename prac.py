@@ -18,3 +18,7 @@
 
 # follower_count가 낮은 열(100이하) 제거
 #DELETE FROM hashtag WHERE follower_count <100;
+
+
+# 검색 결과
+#select * from hashtag where hashtag1 like "%beautiful%" OR hashtag2 like "%beautiful%" OR hashtag3 like "%beautiful%" OR hashtag4 like "%beautiful%" OR hashtag5 like "%beautiful%";
